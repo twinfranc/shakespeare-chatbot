@@ -1,10 +1,10 @@
 import nltk
 import string
+import streamlit as stS
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
-
 
 # Define the chatbot function
 def chatbot(query):
