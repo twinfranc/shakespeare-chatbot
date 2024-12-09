@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Download NLTK resources
-nltk.download('punkt')
+nltk.download('punkt_tab'')
 nltk.download('stopwords')
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
