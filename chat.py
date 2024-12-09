@@ -1,6 +1,6 @@
 import nltk
 import string
-import streamlit as stS
+import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import sent_tokenize
